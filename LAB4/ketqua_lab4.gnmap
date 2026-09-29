@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Tue Sep 29 14:27:20 2026 as: /usr/lib/nmap/nmap -sV -p 21,22,80,445,3306 -oA ketqua_lab4 192.168.200.135
+Host: 192.168.200.135 ()	Status: Up
+Host: 192.168.200.135 ()	Ports: 21/open/tcp//ftp//vsftpd 2.3.4/, 22/open/tcp//ssh//OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.8 ((Ubuntu) DAV|2)/, 445/open/tcp//netbios-ssn//Samba smbd 3.X - 4.X (workgroup: WORKGROUP)/, 3306/open/tcp//mysql//MySQL 5.0.51a-3ubuntu5/
+# Nmap done at Tue Sep 29 14:27:26 2026 -- 1 IP address (1 host up) scanned in 6.86 seconds
