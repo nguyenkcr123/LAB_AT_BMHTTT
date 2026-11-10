@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2" />
+    <Property name="title" type="java.lang.String" value="Transposition Cipher" />
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_AutoResourcing" type="java.lang.Integer" value="0" />
+    <AuxValue name="FormSettings_GenerateFQN" type="java.lang.Boolean" value="true" />
+    <AuxValue name="FormSettings_GenerateMnemonicsCode" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_LayoutCodeTarget" type="java.lang.Integer" value="1" />
+    <AuxValue name="FormSettings_VariablesLocal" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_VariablesModifier" type="java.lang.Integer" value="2" />
+  </AuxValues>
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="16" pref="16" max="16" attributes="0" />
+          <Component id="lbl_title" min="630" pref="630" max="630" attributes="0" />
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+        </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="16" pref="16" max="16" attributes="0" />
+          <Component id="lbl_plaintext" min="110" pref="110" max="110" attributes="0" />
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+        </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="16" pref="16" max="16" attributes="0" />
+          <Component id="sp_txt_plaintext" min="630" pref="630" max="630" attributes="0" />
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+        </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="16" pref="16" max="16" attributes="0" />
+          <Component id="lbl_key" min="60" pref="60" max="60" attributes="0" />
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+          <Component id="txt_key" min="130" pref="130" max="130" attributes="0" />
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+          <Component id="lbl_key_hint" min="400" pref="400" max="400" attributes="0" />
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+        </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="16" pref="16" max="16" attributes="0" />
+          <Component id="lbl_ciphertext" min="110" pref="110" max="110" attributes="0" />
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+        </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="16" pref="16" max="16" attributes="0" />
+          <Component id="sp_txt_ciphertext" min="630" pref="630" max="630" attributes="0" />
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+        </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="16" pref="16" max="16" attributes="0" />
+          <Component id="btn_encrypt" min="104" pref="104" max="104" attributes="0" />
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+          <Component id="btn_decrypt" min="104" pref="104" max="104" attributes="0" />
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+          <Component id="btn_open" min="174" pref="174" max="174" attributes="0" />
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+          <Component id="btn_save" min="174" pref="174" max="174" attributes="0" />
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+        </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="16" pref="16" max="16" attributes="0" />
+          <Component id="lbl_status" min="630" pref="630" max="630" attributes="0" />
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+        </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="12" pref="12" max="12" attributes="0" />
+          <Group type="103" groupAlignment="1" attributes="0">
+            <Component id="lbl_title" min="36" pref="36" max="36" attributes="0" />
+          </Group>
+          <EmptySpace min="8" pref="8" max="8" attributes="0" />
+          <Group type="103" groupAlignment="1" attributes="0">
+            <Component id="lbl_plaintext" min="24" pref="24" max="24" attributes="0" />
+          </Group>
+          <EmptySpace min="8" pref="8" max="8" attributes="0" />
+          <Group type="103" groupAlignment="1" attributes="0">
+            <Component id="sp_txt_plaintext" min="74" pref="74" max="74" attributes="0" />
+          </Group>
+          <EmptySpace min="8" pref="8" max="8" attributes="0" />
+          <Group type="103" groupAlignment="1" attributes="0">
+            <Component id="lbl_key" min="24" pref="24" max="24" attributes="0" />
+            <Component id="txt_key" min="28" pref="28" max="28" attributes="0" />
+            <Component id="lbl_key_hint" min="24" pref="24" max="24" attributes="0" />
+          </Group>
+          <EmptySpace min="8" pref="8" max="8" attributes="0" />
+          <Group type="103" groupAlignment="1" attributes="0">
+            <Component id="lbl_ciphertext" min="24" pref="24" max="24" attributes="0" />
+          </Group>
+          <EmptySpace min="8" pref="8" max="8" attributes="0" />
+          <Group type="103" groupAlignment="1" attributes="0">
+            <Component id="sp_txt_ciphertext" min="74" pref="74" max="74" attributes="0" />
+          </Group>
+          <EmptySpace min="8" pref="8" max="8" attributes="0" />
+          <Group type="103" groupAlignment="1" attributes="0">
+            <Component id="btn_encrypt" min="30" pref="30" max="30" attributes="0" />
+            <Component id="btn_decrypt" min="30" pref="30" max="30" attributes="0" />
+            <Component id="btn_open" min="30" pref="30" max="30" attributes="0" />
+            <Component id="btn_save" min="30" pref="30" max="30" attributes="0" />
+          </Group>
+          <EmptySpace min="8" pref="8" max="8" attributes="0" />
+          <Group type="103" groupAlignment="1" attributes="0">
+            <Component id="lbl_status" min="24" pref="24" max="24" attributes="0" />
+          </Group>
+          <EmptySpace min="8" pref="8" max="8" attributes="0" />
+        </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component name="lbl_title" class="javax.swing.JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MẬT MÃ HOÁN VỊ CỘT (TRANSPOSITION)" />
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1" />
+        </Property>
+      </Properties>
+    </Component>
+    <Component name="lbl_plaintext" class="javax.swing.JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Plaintext:" />
+      </Properties>
+    </Component>
+    <Container name="sp_txt_plaintext" class="javax.swing.JScrollPane">
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout" />
+      <SubComponents>
+        <Component name="txt_plaintext" class="javax.swing.JTextArea">
+          <Properties>
+            <Property name="rows" type="int" value="3" />
+            <Property name="editable" type="boolean" value="true" />
+            <Property name="lineWrap" type="boolean" value="true" />
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component name="lbl_key" class="javax.swing.JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Key:" />
+      </Properties>
+    </Component>
+    <Component name="txt_key" class="javax.swing.JTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2,3,1" />
+      </Properties>
+    </Component>
+    <Component name="lbl_key_hint" class="javax.swing.JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hoán vị 1..m, ví dụ 2,3,1" />
+      </Properties>
+    </Component>
+    <Component name="lbl_ciphertext" class="javax.swing.JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ciphertext:" />
+      </Properties>
+    </Component>
+    <Container name="sp_txt_ciphertext" class="javax.swing.JScrollPane">
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout" />
+      <SubComponents>
+        <Component name="txt_ciphertext" class="javax.swing.JTextArea">
+          <Properties>
+            <Property name="rows" type="int" value="3" />
+            <Property name="editable" type="boolean" value="true" />
+            <Property name="lineWrap" type="boolean" value="true" />
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component name="btn_encrypt" class="javax.swing.JButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Encrypt" />
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_encryptActionPerformed" />
+      </Events>
+    </Component>
+    <Component name="btn_decrypt" class="javax.swing.JButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Decrypt" />
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_decryptActionPerformed" />
+      </Events>
+    </Component>
+    <Component name="btn_open" class="javax.swing.JButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Open Ciphertext File" />
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_openActionPerformed" />
+      </Events>
+    </Component>
+    <Component name="btn_save" class="javax.swing.JButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save Ciphertext File" />
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_saveActionPerformed" />
+      </Events>
+    </Component>
+    <Component name="lbl_status" class="javax.swing.JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sẵn sàng." />
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
